@@ -1,0 +1,41 @@
+---
+title: "Quarto Python Test"
+jupyter: python3
+execute:
+  echo: true
+  warning: true
+  error: true
+---
+
+## Python environment
+
+```{python}
+import sys
+import numpy as np
+import matplotlib
+import matplotlib.pyplot as plt
+
+print("Python:", sys.executable)
+print("NumPy:", np.__version__)
+print("Matplotlib:", matplotlib.__version__)
+print("Backend:", matplotlib.get_backend())
+```
+
+## Sinusoid test
+
+```{python}
+#| label: fig-sine
+#| fig-cap: "Test sinusoid generated with Python and Matplotlib"
+
+x = np.linspace(0, 2 * np.pi, 500)
+y = np.sin(x)
+
+fig, ax = plt.subplots(figsize=(8, 4))
+ax.plot(x, y)
+ax.set_xlabel("x")
+ax.set_ylabel("sin(x)")
+ax.set_title("Quarto + Jupyter + Matplotlib")
+ax.grid(True)
+
+fig
+```

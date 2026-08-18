@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.env
+
+# Quarto / Web
+_site/
+.quarto/
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+cartoon-content/
+brand/
+requirements.txt
