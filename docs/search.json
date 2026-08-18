@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "lab.html",
+    "href": "lab.html",
+    "title": "Quarto Python Test",
+    "section": "",
+    "text": "import sys\nimport numpy as np\nimport matplotlib\nimport matplotlib.pyplot as plt\n\nprint(\"Python:\", sys.executable)\nprint(\"NumPy:\", np.__version__)\nprint(\"Matplotlib:\", matplotlib.__version__)\nprint(\"Backend:\", matplotlib.get_backend())\n\nPython: C:\\MarVaz\\kaatu\\.venv\\Scripts\\python.exe\nNumPy: 2.5.2\nMatplotlib: 3.11.1\nBackend: module://matplotlib_inline.backend_inline"
+  },
+  {
+    "objectID": "lab.html#python-environment",
+    "href": "lab.html#python-environment",
+    "title": "Quarto Python Test",
+    "section": "",
+    "text": "import sys\nimport numpy as np\nimport matplotlib\nimport matplotlib.pyplot as plt\n\nprint(\"Python:\", sys.executable)\nprint(\"NumPy:\", np.__version__)\nprint(\"Matplotlib:\", matplotlib.__version__)\nprint(\"Backend:\", matplotlib.get_backend())\n\nPython: C:\\MarVaz\\kaatu\\.venv\\Scripts\\python.exe\nNumPy: 2.5.2\nMatplotlib: 3.11.1\nBackend: module://matplotlib_inline.backend_inline"
+  },
+  {
+    "objectID": "lab.html#sinusoid-test",
+    "href": "lab.html#sinusoid-test",
+    "title": "Quarto Python Test",
+    "section": "Sinusoid test",
+    "text": "Sinusoid test\n\nx = np.linspace(0, 2 * np.pi, 500)\ny = np.sin(x)\n\nfig, ax = plt.subplots(figsize=(8, 4))\nax.plot(x, y)\nax.set_xlabel(\"x\")\nax.set_ylabel(\"sin(x)\")\nax.set_title(\"Quarto + Jupyter + Matplotlib\")\nax.grid(True)\n\nfig\n\n\n\n\n\n\n\n\n\n\n(a) Test sinusoid generated with Python and Matplotlib\n\n\n\n\n\n\n\n\n\n\n\n(b)\n\n\n\n\n\n\nFigure 1"
+  },
+  {
+    "objectID": "brand/Kaatu_Original_Artwork_Pack/docs/uso-rapido.html",
+    "href": "brand/Kaatu_Original_Artwork_Pack/docs/uso-rapido.html",
+    "title": "Uso rápido",
+    "section": "",
+    "text": "Perfil: ../avatar-full-body/kaatu-fullbody-avatar-1024.png\nFavicon o acceso directo: ../avatar-full-body/kaatu-fullbody-favicon.ico\nAlternativa compacta: ../avatar-head/kaatu-head-avatar-1024.png\n\n\n\n\nPara un README puedes guardar la imagen dentro del repositorio y utilizar:\n&lt;p align=\"center\"&gt;\n  &lt;img src=\"assets/kaatu-fullbody-avatar-1024.png\" width=\"240\" alt=\"Kaatú — by MarVaz\"&gt;\n&lt;/p&gt;\nPara mostrar el lockup original:\n&lt;img src=\"assets/kaatu-wordmark-lockup.png\" width=\"520\" alt=\"Kaatú — by MarVaz\"&gt;\n\n\n\nLos archivos de applications/ son referencias visuales, no artes finales de producción. Entrégalos al proveedor para explicar tamaño, ubicación y apariencia. Para bordado o serigrafía profesional, solicita al proveedor un trazado basado en la lámina original sin alterar el dibujo.\n\n\n\nassets/\n  brand/\n    kaatu-fullbody-avatar-1024.png\n    kaatu-wordmark-lockup.png"
+  },
+  {
+    "objectID": "brand/Kaatu_Original_Artwork_Pack/docs/uso-rapido.html#github",
+    "href": "brand/Kaatu_Original_Artwork_Pack/docs/uso-rapido.html#github",
+    "title": "Uso rápido",
+    "section": "",
+    "text": "Perfil: ../avatar-full-body/kaatu-fullbody-avatar-1024.png\nFavicon o acceso directo: ../avatar-full-body/kaatu-fullbody-favicon.ico\nAlternativa compacta: ../avatar-head/kaatu-head-avatar-1024.png"
+  },
+  {
+    "objectID": "brand/Kaatu_Original_Artwork_Pack/docs/uso-rapido.html#documentación",
+    "href": "brand/Kaatu_Original_Artwork_Pack/docs/uso-rapido.html#documentación",
+    "title": "Uso rápido",
+    "section": "",
+    "text": "Para un README puedes guardar la imagen dentro del repositorio y utilizar:\n&lt;p align=\"center\"&gt;\n  &lt;img src=\"assets/kaatu-fullbody-avatar-1024.png\" width=\"240\" alt=\"Kaatú — by MarVaz\"&gt;\n&lt;/p&gt;\nPara mostrar el lockup original:\n&lt;img src=\"assets/kaatu-wordmark-lockup.png\" width=\"520\" alt=\"Kaatú — by MarVaz\"&gt;"
+  },
+  {
+    "objectID": "brand/Kaatu_Original_Artwork_Pack/docs/uso-rapido.html#playera",
+    "href": "brand/Kaatu_Original_Artwork_Pack/docs/uso-rapido.html#playera",
+    "title": "Uso rápido",
+    "section": "",
+    "text": "Los archivos de applications/ son referencias visuales, no artes finales de producción. Entrégalos al proveedor para explicar tamaño, ubicación y apariencia. Para bordado o serigrafía profesional, solicita al proveedor un trazado basado en la lámina original sin alterar el dibujo."
+  },
+  {
+    "objectID": "brand/Kaatu_Original_Artwork_Pack/docs/uso-rapido.html#convención-sugerida-en-repositorios",
+    "href": "brand/Kaatu_Original_Artwork_Pack/docs/uso-rapido.html#convención-sugerida-en-repositorios",
+    "title": "Uso rápido",
+    "section": "",
+    "text": "assets/\n  brand/\n    kaatu-fullbody-avatar-1024.png\n    kaatu-wordmark-lockup.png"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kaatú",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  }
+]

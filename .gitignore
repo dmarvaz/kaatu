@@ -14,6 +14,9 @@ _site/
 # Sistema
 .DS_Store
 Thumbs.db
+
+# Archivos temporales específicos (opcional)
+content.txt
+*.tmp
 cartoon-content/
-brand/
-requirements.txt
+brand/Kaatu_Original_Artwork_Pack/
